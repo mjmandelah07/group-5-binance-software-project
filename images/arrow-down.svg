@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="24px" viewBox="0 0 19 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>ARROW DOWN</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="HOME-1" transform="translate(-1088.000000, -952.000000)" stroke="#FF4600">
+            <g id="ARROW-DOWN" transform="translate(1089.000000, 952.000000)">
+                <g>
+                    <path d="M8.5,0.921875 L8.5,22.96875" id="Line"></path>
+                    <path d="M8.5,22.96875 L0.438964844,14.9077148" id="Line-2"></path>
+                    <path d="M8.5,22.96875 L16.5610352,14.9077148" id="Line-3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
