@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+    background: rgb(29, 29, 29);
+    color: #fff;
+}
+
+
+.left h1 {
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 2px solid rgb(255, 0, 0);
+    width: fit-content;
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+.subscribe, .findus {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    width: 19rem;
+    margin-bottom: 2rem;
+}
+
+input {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background:rgb(29, 29, 29);
+    color: #fff;
+    padding: 0.4rem;
+    width: 19rem;
+    margin-bottom: 2rem;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+.kitchen {
+    display: flex;
+    gap: 2rem;
+}
+
+.kitchen img {
+    width: 5rem;
+    margin-bottom: 2rem;
+}
+
+.copyright {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgb(150, 150, 150);
+    margin-top: 5rem;
+}
+
+.cook {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+
+.right {
+    margin-top: 5rem;
+}
+
+.cook p {
+    margin-top: 0.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.address {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    width: 10rem;
+    margin-bottom: 2rem;
+}
+
+.phone,.privacy {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    width: 20rem;
+    margin-bottom: 2rem;
+}
+
+.design {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgb(150, 150, 150);
+    margin-top: 10.5rem;
+}
+
+@media (max-width:750px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
