@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 * {
   padding: 0;
   margin: 0;
@@ -71,7 +70,7 @@ nav ul {
   left: 22rem;
 }
 nav ul li {
-  margin-left: 3rem;
+  margin-left: 2.5rem;
 }
 
 #indicator {
@@ -106,7 +105,6 @@ nav ul li {
 }
 .second_section {
   height: 40vw;
-  background-color:antiquewhite;
 }
 
 .second_section p {
@@ -139,14 +137,11 @@ nav ul li {
 #lower_arrow {
   position: relative;
   float: right;
-  top: 9rem;
+  top: 10rem;
+  
 }
 
-=======
-*{
-    margin: 0;
-    overflow-x: hidden;
-}
+
 
 
 
@@ -257,4 +252,3 @@ input::placeholder {
         align-items: center;
     }
 }
->>>>>>> 65a5c0bde7f34f91e146fed463dc7719e203b23a
