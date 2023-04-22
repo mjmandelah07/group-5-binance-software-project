@@ -7,6 +7,9 @@
     text-rendering: optimizeLegibility;
     outline: none;
     font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+   
 }
 
 html {
@@ -868,14 +871,9 @@ button {
 
 @media (max-width: 1559.98px) {
     html {
-        font-size: 1.1rem;
+        font-size: 1.1rem;}
+    }
 =======
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 .hero_section {
   display: flex;
   align-items: center;
@@ -1010,7 +1008,7 @@ nav ul li {
   position: relative;
   float: right;
   top: 10rem;
-  
+
 }
 
 
