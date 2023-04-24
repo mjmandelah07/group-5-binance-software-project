@@ -1,139 +1,342 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cook collective</title>
-    <link
-      rel="icon"
-      href="/images/cropped-cookcollective-favicon-32x32.png"
-      type="image/x-icon"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="./main.css" />
-  </head>
-  <body>
-    <!-- header start -->
-    <header>
-      <!-- Hero section -->
-      <div class="hero_section">
-        <div class="left_part">
-          <!-- background image -->
-          <div class="background">
-            <h2 id="text">
-              Shared kitchen by food
-              <br />
-              industry people, for food
-              <br />
-              industry people
-            </h2>
-          </div>
-          <img id="middle_curve" src="./images/line-3.svg" alt="Curvier line" />
-        </div>
-        <div class="right_part">
-          <h2 id="inscription">
-            Shared kitchen
-            <br />
-            by food industry people,
-            <br />
-            for food industry people
-          </h2>
-          <div class="lower_left">
-            <img id="curvy_line" src="./images/line-1.svg" alt="Curvy line" />
-            <br />
-            <img src="./images/arrow-down.svg" alt="Arrow down" />
-            <p>Show me more!</p>
-          </div>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+  <title>Cook Collective</title>
+  <link rel="icon" href="./images/cropped-cookcollective-favicon-32x32.png" type="image/x-icon">
+
+</head>
+
+<body>
+  <!-- header start -->
+  <header>
+    <!-- Hero section -->
+    <div class="hero_section">
+      <div class="left_part">
+        <!-- background image -->
+        <div class="background"></div>
+        <img id="middle_curve" src="./images/line-3.svg" alt="Curvier line" />
+      </div>
+      <div class="right_part">
+        <h2 id="inscription">
+          Shared kitchen
+          <br />
+          by food industry people,
+          <br />
+          for food industry people
+        </h2>
+        <div class="lower_left">
+          <img id="curvy_line" src="./images/line-1.svg" alt="Curvy line" />
+          <br />
+          <img src="./images/arrow-down.svg" alt="Arrow down" />
+          <p>Show me more!</p>
         </div>
       </div>
-      <!-- Navigation bar  -->
-      <nav class="navbar navbar-expand-md navbar-light fixed-top">
-        <!-- Brand -->
-        <div class="navbar-brand" href="#">
-          <img
-            id="logo"
-            src="./images/cropped-cookcollective-favicon-32x32.png"
-            alt="small cook collective logo"
-          />
-          <h3 id="cook">cook collective</h3>
-        </div>
-
-        <!-- Toggler/collapsibe Button -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item" id="indicator">
-              <a class="nav-link" href="#">Who we are</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">What we offer</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Partners</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">What we offer</a>
-            </li>
-            <li class="nav-item" id="button">
-              <a class="nav-link" href="#">Book a tour</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <!-- Who we are section -->
-      <div class="second_section">
-        <img
-          id="image"
-          src="./images/food spices.jpg"
-          alt="Picture of food spices"
-        />
-        <h1>Who we are</h1>
-
-        <p>
-          Cook Collective is a 6500sq. feet shared kitchen serving your small
-          business comissary kitchen needs.
-        </p>
-        <p>
-          Our goal is to provide space for a community of like minded
-          entrepreneurs, where we can problem-solve, support and grow together.
-        </p>
-
-        <p>
-          We strive to create a global collective of diverse food businesses to
-          supply the world one great meal at a time!
-        </p>
-        <img id="lower_arrow" src="./images/arrow-down.svg" alt="Arrow down" />
-      </div>
-    </header>
-<!-- header end -->
-
-    <!-- logo div start -->
-    <div>
-      <!-- logo div end -->
     </div>
+    <!-- Navigation bar  -->
+    <nav>
+      <div class="cook_logo">
+        <img id="logo" src="./images/cropped-cookcollective-favicon-32x32.png" alt="small cook collective logo" />
+        <h3 id="cook">cook collective</h3>
+      </div>
+      <div id="links">
+        <ul>
+          <li id="indicator">Who we are</li>
+          <li>What we offer</li>
+          <li>Partners</li>
+          <li>How to apply</li>
+          <li id="button">Book a tour</li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Who we are section -->
+    <div class="second_section">
+      <img id="image" src="./images/food spices.jpg" alt="Picture of food spices" />
+      <h1>Who we are</h1>
 
-    <!--main start-->
-    <main>
+      <p>
+        Cook Collective is a 6500sq. feet shared kitchen serving your small
+        business comissary kitchen needs.
+      </p>
+      <p>
+        Our goal is to provide space for a community of like minded
+        entrepreneurs, where we can problem-solve, support and grow together.
+      </p>
+
+      <p>
+        We strive to create a global collective of diverse food businesses to
+        supply the world one great meal at a time!
+      </p>
+      <img id="lower_arrow" src="./images/arrow-down.svg" alt="Arrow down" />
+    </div>
+    <!-- header end -->
+  </header>
+
+  <!-- logo div start -->
+  <div>
+    <!-- logo div end -->
+  </div>
+
+  <!--main start-->
+  <main>
+
+    <!-- who we partner with section start -->
+    <section>
+      <div class="partners-section">
+        <div class="partners-block">
+          <h2 class="partners-title">
+            Who do we partner with ?
+            <div class="underline"></div>
+          </h2>
+
+          <h2 class="partners-content">
+            We love this business and our partners: vendors, virtual restaurants,
+            makers, popups, producers, catering and CPG Companies.
+          </h2>
+
+          <button class="partners-button">Meet our community</button>
+        </div>
+
+        <div class="partners-container">
+          <div class="partners-item">
+            <div class="partners-item-logo">
+              <img src="https://cookcollectivekitchen.com/wp-content/uploads/2019/07/dulcinea.svg"
+                alt="dulcinea's logo" />
+            </div>
+
+            <h2 class="partners-item-title">Dulcinea – Churros & Pastries</h2>
+
+            <p class="partners-item-text">
+              Dulcinea is a culinary concept dedicated to Spanish confections
+              featuring Spain’s most beloved confection the Churro. You can find
+              them on weekends at Smorgasburg and every day at Dekalb Market.
+            </p>
+          </div>
+
+          <div class="partners-item">
+            <div class="partners-item-logo">
+              <img src="https://cookcollectivekitchen.com/wp-content/uploads/2021/04/Logo-No-Margin-e1619299737462.jpg"
+                alt="empanada logo" style="width: 120px" />
+            </div>
+
+            <h2 class="partners-item-title">Empanada Republic</h2>
+
+            <p class="partners-item-text">
+              Empanada Republic is a Latin American conceived-Brooklyn born
+              project doing delicious handmade empanadas. You can find them at JFK
+              airport into the TWA hotel foodhall. They cater you.
+            </p>
+          </div>
+
+          <div class="partners-item">
+            <div class="partners-item-logo">
+              <img src="https://cookcollectivekitchen.com/wp-content/uploads/2019/07/jillicious.svg"
+                alt="jillicious logo" />
+            </div>
+
+            <h2 class="partners-item-title">Jillicious Foods & Events</h2>
+
+            <p class="partners-item-text">
+              Jillicious is a full service, boutique catering company located in
+              Brooklyn, New York. Jillicious provide highly trained staff,
+              rentals, event design, and full event planning services for your
+              social events, corporate events, celebrations, and of course
+              weddings.
+            </p>
+          </div>
+
+          <div class="partners-item">
+            <div class="partners-item-logo">
+              <img src="https://cookcollectivekitchen.com/wp-content/uploads/2021/04/CCWEBTomLogo-e1619300001557.jpg"
+                alt="Tom's Granola logo" style="width: 110px" />
+            </div>
+
+            <h2 class="partners-item-title">Tom's Granola</h2>
+
+            <p class="partners-item-text">
+              What makes the perfect Granola? Do you like decadently sweet or
+              delightfully healthy? Simple or Complex? Light or Rich? Please
+              follow @tomsgranola and help them on their granola journey!
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- who we partner with section end -->
+    </section>
+
+
+
+
+    <!-- how to apply section starts -->
+    <section id="how-to-apply" class="block-section-bg block section-bg">
+      <div class="block-container block-container-section-bg max-width-large">
+        <div class="block-left ">
+          <div class="block-content">
+            <h1 class="text-title align-left">
+              <span class="opacity-75">How to apply?</span>
+            </h1>
+            <h2 class="text-subtitle opacity-75">
+              Fill in the form below and be one step closer to being part of Cook Collective </h2>
+            <ol class="steps-list opacity-75">
+              <li>Book a tour</li>
+              <li>Complete an application</li>
+              <li>Sign a contract</li>
+              <li>Welcome on board!</li>
+            </ol>
+            <button type="button" class="button button-apply">Ok, I want to book a tour!</button>
+          </div>
+        </div>
+        <div class="block-right">
+          <div class="block-section-bg-image bg-image-vertical">
+            <img class="" src="./images/3-923x1200.jpg" alt="" />
+          </div>
+
+        </div>
+      </div>
+      <!-- how to apply ends -->
+    </section>
+    <!-- booking starts -->
+    <section class="block block-form">
+      <div class="block-content max-width">
+        <h1 class="text-title text-underline align-center">
+          <span class="opacity-75">Booking and information request</span>
+        </h1>
+        <h2 class="text-subtitle text-underline align-center opacity-75">
+          Book a tour if you want to get to know us, see our<br />
+          space for yourself, and maybe even work together! </h2>
+      </div>
+      <div class="form-container max-width-sm ">
+        <form class="af-form acf-form">
+          <div class="af-fields acf-fields acf-form-fields -top">
+            <div data-width="100" style="width: 100%;min-height: 73px;"
+              class="af-field af-field-type-text af-field-full-name acf-field acf-field-text acf-field-5d3dac197172b af-field-required ">
+              <div class="af-label acf-label">
+                <label for="fullname">Full name<span class="acf-required">*</span></label>
+              </div>
+              <div class="af-input acf-input">
+                <div class="acf-input-wrap">
+                  <input type="text" class="full-name-div" name="fullname" placeholder="" id="fullname" required />
+                </div>
+              </div>
+            </div>
+            <div
+              class="af-field af-field-type-email af-field-email acf-field acf-field-email acf-field-5d3dac2b7172c af-field-required"
+              style="width: 50%; min-height: 73px;" data-width="50">
+              <div class="af-label acf-label"><label for="email">Email address <span
+                    class="acf-required">*</span></label></div>
+              <div class="af-input acf-input">
+                <div class="acf-input-wrap"><input type="email" id="email" name="" required /></div>
+              </div>
+            </div>
+            <div
+              class="af-field af-field-type-number af-field-phone-number acf-field acf-field-number acf-field-5d489a97f7507 af-field-required"
+              data-width="50" style="width: 50%;min-height: 73px;">
+              <div class="af-label acf-label"><label for="phonenumber">Phone number <span
+                    class="acf-required">*</span></label></div>
+
+              <div class="af-input acf-input">
+                <div class="acf-input-wrap"><input type="number" id="phonenumber" name="" step="any" required /></div>
+              </div>
+            </div>
+            <div
+              class="af-field af-field-type-text af-field-company-name acf-field acf-field-text acf-field-5d3dac3a7172d af-field-required"
+              data-width="50" style="width: 50%;min-height: 73px;">
+              <div class="af-label acf-label"><label for="company">Company name <span
+                    class="acf-required">*</span></label></div>
+              <div class="af-input acf-input">
+                <div class="acf-input-wrap"><input type="text" id="company" name="" required /></div>
+              </div>
+            </div>
+            <div
+              class="af-field af-field-type-text af-field-cuisine acf-field acf-field-text acf-field-5d3dac467172e af-field-required"
+              data-width="50" style="width: 50%;min-height: 73px;">
+              <div class="af-label acf-label"><label for="cuisine">Type of cuisine <span
+                    class="acf-required">*</span></label></div>
+              <div class="af-input acf-input">
+                <div class="acf-input-wrap"><input type="text" id="cuisine" required /></div>
+              </div>
+            </div>
+            <div
+              class="af-field af-field-type-text af-field-website acf-field acf-field-text acf-field-5d3dac517172f af-field-required"
+              data-width="50" style="width: 50%;min-height: 73px;">
+              <div class="af-label acf-label"><label for="social" style="font-size: 0.8rem;">Website or Social Media
+                  <span class="acf-required">*</span></label></div>
+              <div class="af-input acf-input">
+                <div class="acf-input-wrap"><input type="text" id="social" required /></div>
+              </div>
+            </div>
+            <div
+              class="hide-label af-field af-field-type-select af-field-are-you acf-field acf-field-select acf-field-5d3dac6871730 af-field-required"
+              data-width="50" style="width: 50%;min-height: 73px;">
+              <div class="af-label acf-label"><label for="you"> <span class="acf-required"></span></label>
+              </div>
+              <div class="af-input acf-input"><select id="you" name="are-you">
+                  <option value="I am a ..." selected>I am a ...</option>
+                  <option value="vendor">I&#039;m a vendor</option>
+                  <option value="maker">I&#039;m a maker</option>
+                  <option value="pop up">I&#039;m a pop-up business</option>
+                  <option value="catering">I&#039;m a catering</option>
+                  <option value="producer">I&#039;m a producer</option>
+                </select></div>
+            </div>
+            <div
+              class="af-field af-field-type-textarea af-field-describe acf-field acf-field-textarea acf-field-5d3dacab71731 af-field-required">
+              <div cclass="af-label acf-label"><label for="describe" style="padding: 0.6rem;">Describe your company
+                  <span class="acf-required">*</span></label></div>
+              <div class="af-input acf-input"><textarea id="describe" rows="6" required></textarea></div>
+            </div>
+            <div
+              class="hide-label af-field af-field-type-select af-field-how-did-you-find-us acf-field acf-field-select acf-field-5d3dbf2947fa5 af-field-required">
+              <div class="af-label acf-label"><label for="howdidyoufindus">
+                  <span class="acf-required"></span></label></div>
+              <div class="af-input acf-input"><select id="howdidyoufindus" class="" name="">
+                  <option value="How did you find us?" selected>How did you find us?</option>
+                  <option value="Ad">Ad</option>
+                  <option value="Social media">Social media</option>
+                  <option value="Internet search">Internet search</option>
+                  <option value="Word of mouth">Word of mouth</option>
+                </select></div>
+            </div>
+            <div
+              class="hide-label af-field af-field-type-true-false af-field-terms acf-field acf-field-true-false acf-field-5d3dacc271732 af-field-required">
+              <div class="af-input acf-input">
+                <div class="acf-true-false">
+                  <input type="hidden" name="" value="0" />
+                  <label for="termsandconditions">
+                    <input type="checkbox" id="termsandconditions" name="" value="1" class="" autocomplete="off" />
+                    <span class="message">I have read and agree to the terms and conditions</a></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="af-submit acf-form-submit">
+              <button type="submit" class="acf-button af-submit-button">Submit my request</button>
+              <span class="acf-spinner af-spinner"></span>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- booking ends -->
       <!--main end  -->
-    </main>
+  </main>
 
-    <div id="cursor"></div>
-
-    <!-- footer start -->
-    <footer>
-      <div class="left">
-        <h1>Sign up for updates</h1>
-      <p class="subscribe">Subscribe to our newletter to receive news, special offers, and information about Cook collective</p>
+  <!-- footer start -->
+  <footer>
+    <div class="left">
+      <h1>Sign up for updates</h1>
+      <p class="subscribe">Subscribe to our newletter to receive news, special offers, and information about Cook
+        collective</p>
       <form action="#">
         <input type="text" placeholder="Email Address">
       </form>
@@ -144,24 +347,27 @@
         <div><img src="images/tfc-logo-white.svg" alt="kitchen"></div>
       </div>
       <p class="copyright">2019 Cook collective LLC. All rights reserved.</p>
-      </div>
+    </div>
 
-      <div class="right">
-        <div class="cook"><div><img src="images/cropped-cookcollective-favicon-32x32.png" alt=""></div>
-      <p>Cook collective</p></div>
+    <div class="right">
+      <div class="cook">
+        <div><img src="images/cropped-cookcollective-favicon-32x32.png" alt=""></div>
+        <p>Cook collective</p>
+      </div>
 
       <p class="address">999 Atlantic Avenue Brooklyn, NY 11238 Unites States Map</p>
       <p class="phone">(718) 500-0285 hello@cookcollectivekitchen.com</p>
       <p class="privacy">Privacy policy</p>
       <p class="design">Design and code:Binance(Utiva) Fullstack G5 </p>
-      </div>
-    </footer>
-      <!--footer ends  -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    </div>
+  </footer>
+  <!--footer ends  -->
 
-    <!-- Popper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
