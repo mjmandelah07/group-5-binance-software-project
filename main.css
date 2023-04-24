@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap");
+
 *,
 *::after,
 *::before {
@@ -175,6 +177,86 @@ nav ul li {
 }
 
 /* hero section styling ends */
+
+/* who we partner with styling start */
+.partners-section {
+    font-family: "Public Sans", sans-serif;
+    text-align: center;
+  }
+
+  .partners-block {
+    width: 70vw;
+    margin: 0 auto;
+  }
+
+  .partners-title {
+    margin: 40px 0;
+    font-weight: 400;
+    font-size: 2rem;
+  }
+
+  .underline {
+    width: 360px;
+    height: 2px;
+    margin: 1px auto;
+    background-color: #ff490d;
+  }
+
+  .partners-content {
+    font-weight: 200;
+    width: 48vw;
+    margin: 0 auto 30px auto;
+  }
+
+  .partners-button {
+    border: none;
+    border-radius: 26px;
+    border: 1.4px solid #ff490d;
+    background-color: #fffaf5;
+    box-shadow: 0px 0px 1.25rem 0px rgb(29 29 29 / 10%);
+    color: #ff490d;
+    /* width: 160px;
+    height: 40px; */
+    padding: 0.9rem 1.8rem;
+    margin: 0 auto;
+  }
+
+  .partners-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    width: 88vw;
+    margin: 0 auto;
+  }
+
+  .partners-item {
+    width: 30%;
+    margin: 60px 0 0 0;
+  }
+
+  .partners-item-logo {
+    width: 180px;
+    margin: 40px auto;
+  }
+
+  .partners-item-logo > img {
+    width: 100%;
+  }
+
+  .partners-item > h2 {
+    font-size: 1rem;
+    color: #ff490d;
+    margin: 20px 0;
+  }
+
+  .partners-item > p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  /* who we partner with styling ends */
+
+
 /* how to apply styling start*/
 .section-bg {
     background-color: #FFFAF5;
