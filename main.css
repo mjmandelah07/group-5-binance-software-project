@@ -3,33 +3,31 @@
 *,
 *::after,
 *::before {
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    outline: none;
-    font-family: 'Lato', sans-serif;
-    padding: 0;
-    margin: 0;
-
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  outline: none;
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 html {
-    color: #1d1d1d;
-    background-color: #fff;
-    font-size: 20px;
-    width: 100%;
-    overflow-x: hidden;
-
+  color: #1d1d1d;
+  background-color: #fff;
+  font-size: 20px;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body {
-    font-size: 1rem;
-    line-height: 1.4;
+  font-size: 1rem;
+  line-height: 1.4;
 }
 
 ::selection {
-    background: #1d1d1d;
-    color: #fff;
+  background: #1d1d1d;
+  color: #fff;
 }
 
 /* header start */
@@ -52,8 +50,8 @@ body {
 #middle_curve {
   position: relative;
   float: right;
-  bottom: 22.5rem;
-  left: 7.5rem;
+  bottom: 20.5rem;
+  left: 9rem;
   width: 20rem;
 }
 
@@ -68,14 +66,12 @@ body {
 }
 
 #inscription {
-    font-family:  "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    color: #ff490d;
-    padding: 0 2.3rem;
-    font-size: 2.5rem;
-    line-height: 1.1;
-    position: relative;
-    bottom: 3rem;
-    width: fit-content;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #ff490d;
+  padding: 0 2.3rem;
+  position: relative;
+  bottom: 3rem;
+  width: fit-content;
 }
 
 nav {
@@ -158,9 +154,9 @@ nav ul li {
   width: 50vw;
 }
 #image {
-    float: right;
-    width: 50vw;
-    height: 70vh;
+  float: right;
+  width: 50vw;
+  height: 70vh;
 }
 
 #lower_arrow {
@@ -191,54 +187,27 @@ nav ul li {
   }
   .second_section p {
     text-align: left;
-    font-size: 0.5rem;
-    padding: 0 0 0 1rem;
-    width: 70%;
-  }
-  #lower_arrow {
-    position: relative;
-    right: 50%;
-  }
-}
-@media screen and (max-width: 911.98px) {
-  nav ul {
-    position: relative;
-    left: 0;
-  }
-  #image {
-    display: none;
-  }
-  .second_section {
-    background-image: url("./images/food spices.jpg");
-    height: 100vh;
-    background-size: cover;
-    position: relative;
-    bottom: 14rem;
-  }
-
-  .second_section h1 {
-    font-size: 1.5rem;
-    padding: 7rem 1rem 1rem;
-    width: fit-content;
-  }
-  .second_section p {
-    text-align: left;
     font-size: 1rem;
     padding: 0 0 0 1rem;
     width: 70%;
   }
+  .lower_left {
+    position: relative;
+    bottom: 3rem;
+  }
   #lower_arrow {
     position: relative;
     right: 50%;
   }
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1000px) {
   .right_part {
     display: none;
   }
   .background {
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
   }
   header {
     overflow: hidden;
@@ -250,10 +219,9 @@ nav ul li {
     display: block;
     text-align: center;
     text-transform: uppercase;
-    padding: 16rem 1rem 16rem 0;
+    padding: 8rem 1rem 8rem 0;
     color: #ff490d;
     font-size: 2rem;
-    line-height: 1.1;
     position: relative;
     font-weight: 1000;
   }
@@ -295,112 +263,3 @@ nav ul li {
   }
 }
 /* header end */
-
-footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 4rem;
-  background: rgb(29, 29, 29);
-  color: #fff;
-}
-
-.left h1 {
-  font-weight: 400;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  border-bottom: 2px solid rgb(255, 0, 0);
-  width: fit-content;
-  margin-top: 5rem;
-  margin-bottom: 1.5rem;
-}
-
-.subscribe,
-.findus {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 400;
-  font-size: 1.3rem;
-  width: 19rem;
-  margin-bottom: 2rem;
-}
-
-input {
-  border: 2px solid #fff;
-  border-radius: 5px;
-  background: rgb(29, 29, 29);
-  color: #fff;
-  padding: 0.4rem;
-  width: 19rem;
-  margin-bottom: 2rem;
-}
-
-input::placeholder {
-  color: #fff;
-}
-
-.kitchen {
-  display: flex;
-  gap: 2rem;
-}
-
-.kitchen img {
-  width: 5rem;
-  margin-bottom: 2rem;
-}
-
-.copyright {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
-  color: rgb(150, 150, 150);
-  margin-top: 5rem;
-}
-
-.cook {
-  display: flex;
-  gap: 0.5rem;
-  margin-bottom: 2rem;
-}
-
-.right {
-  margin-top: 5rem;
-}
-
-.cook p {
-  margin-top: 0.5rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 400;
-  font-size: 1.3rem;
-}
-
-.address {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 400;
-  font-size: 1.3rem;
-  width: 10rem;
-  margin-bottom: 2rem;
-}
-
-.phone,
-.privacy {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 400;
-  font-size: 1.3rem;
-  width: 20rem;
-  margin-bottom: 2rem;
-}
-
-.design {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
-  color: rgb(150, 150, 150);
-  margin-top: 10.5rem;
-}
-
-@media (max-width: 750px) {
-  .second section,
-  footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
