@@ -168,7 +168,7 @@ nav ul li {
 @media screen and (max-width: 1199.98px) {
   nav ul {
     position: relative;
-    left: 5rem;
+    left: 2rem;
   }
   #image {
     display: none;
@@ -198,10 +198,11 @@ nav ul li {
   #lower_arrow {
     position: relative;
     right: 50%;
+    top: 5rem;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   .right_part {
     display: none;
   }
@@ -260,6 +261,7 @@ nav ul li {
   #lower_arrow {
     position: relative;
     right: 50%;
+    top: 2rem;
   }
 }
 /* header end */
