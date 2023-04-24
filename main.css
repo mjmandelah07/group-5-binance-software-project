@@ -177,6 +177,19 @@ nav ul li {
 }
 
 /* hero section styling ends */
+/* what offer section styling start */
+h4{text-decoration: underline; text-decoration-color: orangered;}
+
+.p4{color: orangered;}
+
+body{
+    text-align: center;
+}
+#p2{color: white; background-color: orangered;}
+
+.containers{display: flex; justify-content: center;}
+/* what offer section styling end */
+
 
 /* who we partner with styling start */
 .partners-section {
