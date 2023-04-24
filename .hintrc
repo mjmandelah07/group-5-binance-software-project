@@ -9,7 +9,8 @@
       {
         "ignore": [
           "text-underline-offset",
-          "width: fit-content"
+          "width: fit-content",
+          "text-decoration-thickness"
         ]
       }
     ]
