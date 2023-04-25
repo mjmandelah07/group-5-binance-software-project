@@ -107,7 +107,7 @@ nav ul li {
   text-decoration-thickness: 0.1rem;
 }
 
-#button {
+#nav-button {
   background-color: #ff490d;
   opacity: 1;
   color: white;
@@ -216,6 +216,11 @@ nav ul li {
   nav {
     width: auto;
   }
+  #indicator,
+  #typed {
+    padding: 0 3rem;
+    font-size: 1.5rem;
+  }
   #text {
     display: block;
     text-align: center;
@@ -227,13 +232,11 @@ nav ul li {
     font-weight: 1000;
   }
 
-  .collapse ul {
-    background-color: white;
-  }
-  #button {
+  #nav-button {
     width: fit-content;
     height: fit-content;
     text-align: center;
+    margin: 2rem 5rem;
   }
 
   #image {
