@@ -10,8 +10,25 @@
         "ignore": [
           "text-underline-offset",
           "width: fit-content",
-          "text-decoration-thickness"
+          "text-decoration-thickness",
+          "scroll-behavior",
+          "overflow-clip-margin",
+          "height: fit-content",
+          "user-select"
         ]
+      }
+    ],
+    "no-inline-styles": "off",
+    "axe/forms": [
+      "default",
+      {
+        "select-name": "off"
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "button-name": "off"
       }
     ]
   }

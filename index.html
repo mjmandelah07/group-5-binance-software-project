@@ -25,7 +25,15 @@
     <div class="hero_section">
       <div class="left_part">
         <!-- background image -->
-        <div class="background"></div>
+        <div class="background">
+          <h2 id="text">
+            Shared kitchen by food
+            <br />
+            industry people, for food
+            <br />
+            industry people
+          </h2>
+        </div>
         <img id="middle_curve" src="./images/line-3.svg" alt="Curvier line" />
       </div>
       <div class="right_part">
@@ -45,18 +53,36 @@
       </div>
     </div>
     <!-- Navigation bar  -->
-    <nav>
-      <div class="cook_logo">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
+      <!-- Brand -->
+      <div class="navbar-brand" href="#">
         <img id="logo" src="./images/cropped-cookcollective-favicon-32x32.png" alt="small cook collective logo" />
         <h3 id="cook">cook collective</h3>
       </div>
-      <div id="links">
-        <ul>
-          <li id="indicator">Who we are</li>
-          <li>What we offer</li>
-          <li>Partners</li>
-          <li>How to apply</li>
-          <li id="button">Book a tour</li>
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item" id="indicator">
+            <a class="nav-link" href="#">Who we are</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">What we offer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Partners</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">What we offer</a>
+          </li>
+          <li class="nav-item" id="button">
+            <a class="nav-link" href="#">Book a tour</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -80,8 +106,8 @@
       </p>
       <img id="lower_arrow" src="./images/arrow-down.svg" alt="Arrow down" />
     </div>
-    <!-- header end -->
   </header>
+  <!-- header end -->
 
   <!-- logo div start -->
   <div>
@@ -90,154 +116,197 @@
 
   <!--main start-->
   <main>
-  <!-- what we offer section start -->
-  <div>
-    <h4>What we offer</h4>
+    <!-- what we offer section start -->
+    <section id="what-we-offer" class="block block-what-we-offer block-section-normal block-waypoint">
+      <div class="block-container block-container-section max-width-large">
+        <div class="block-content-top">
 
-    <div><p1>Cook Collective has 8 <br/>
-        customizable preparation <br/>
-        stations, fully licensed and <br/>
-        equiped.</p1>
-    </div>
+          <h1 class="text-title text-underline align-center .h1">
+            <span>What we offer</span>
+          </h1>
+          <h2 class="text-subtitle text-underline align-center .h2">
+            Cook Collective has <b class="color-orange">8</b> customizable preparation stations, fully
+            licensed and equipped. </h2>
+          <p class="text-normal align-center what-we-offer-p">
+            We offer Station Rentals by the Shift and monthly storage options for dry, cold and frozen
+            items.<br />
+            <br />
+            7.5 hour Shifts: <b class="color-orange">AM Shift</b> [8:00AM-3:30PM] <b class="color-orange">PM
+              Shift</b> [4:00PM-11:30PM] <b class="color-orange">Overnight Shift</b> [12AM-7:30AM]<br />
+            <br />
+            Our stations are ample, refrigerated and have plenty of storage.<br />
+            <br />
+            Memberships start as low as 2 shifts per month.<br />
+            <br />
+            Choose a plan from 1 to 7 shifts a week. Prices start from <b class="color-orange">$195</b> per
+            shift.<br />
+            <br />
+          </p>
 
-    <p1>
-        We offer Station Rentals by the Shift and monthly storage <br/>
-        options for dry, cold and frozen items.<br/>
-        7.5 hour Shifts: AM Shift [8:00AM-3:00PM] PM Shift <br/>
-        [4:00PM-11:30PM] Overnight Shift [12AM-7:30AM] <br/>
-        Our stations are ample, refrigerated and have plenty of storage.<br/>
-        Memberships start as low as 2 shifts per month. <br/>
-        Choose a plan from 1 to 7 shifts a week. Prices start from $195 per shift. <br/>
-    </p2>
-</div>
-
-<div>
-    <p class="p4">Inquire about special arrangements</p>
-</div>
-
-
-<div id="p3">
-
-    <div class="containers-one">
-
-<div class="containers-items">
-    <img src="./images/icon-pins.svg" alt="icon-pins"/>
-     <p class="p4">Infrastruture</p>
-    <p>8 prep stations <br/>
-    Ample dry/cold/freeze storage <br/>Delivery zone <br/>
-    Extraction & Ventilation <br/> Ansul fire suppression system <br/>
-    1 hand wash sink x station <br/> In-progress dedicated refrigeration <br/>
-    units in every station. <br/> Stainless steel work work tables x station <br/> Wi-Fi zone <br/></p>
-</div>
-
-<div class="containers-items">
-    <img src="./images/icon-oven.svg" alt="icon-oven"/>
-    <p class="p4">Equipment</p>
-<p>Doyon revolving rack oven <br/> Dough sheeter <br/> Double door proofer <br/>
-    Electric smoker <br/> Fryers, including a large donut fryer <br/> 7 convection ovens <br/>
-    Three 6 burner ranges <br/> 2 stock pot burners <br/> 8-60qt mixers <br/>
-    Commercial Robot Coupes <br/> Ice cream machine <br/> Ice makers <br/>
-</p>
-</div>
-
-<div class="containers-items">
-    <img src="./images/icon-layers.svg" alt="icon-layers"/>
-    <p class="p4">Services</p>
-    <p>Cleaning services <br/> Linen services <br/> Janitorial supplies <br/>
-    Chemical supplies <br/> Free Wi-Fi <br/> Helpful staff <br/> Waste  Recycling services <br/></p>
-</div>
-</div>
-
-<div>
-    <p id="p2">Need more info? Reach out!</p> </div>
-    <div>
-        <img src="./images/we-serve-you.svg" alt="we-serve-you"/>
-    </div>
-
-  <!-- what we offer section end -->
-
-    <!-- who we partner with section start -->
-    <section>
-      <div class="partners-section">
-        <div class="partners-block">
-          <h2 class="partners-title">
-            Who do we partner with ?
-            <div class="underline"></div>
-          </h2>
-
-          <h2 class="partners-content">
-            We love this business and our partners: vendors, virtual restaurants,
-            makers, popups, producers, catering and CPG Companies.
-          </h2>
-
-          <button class="partners-button">Meet our community</button>
+          <a href="#how-to-apply">
+            <div class="button button-secondary scroll-to">Inquire about special arrangements</div>
+          </a>
         </div>
-
-        <div class="partners-container">
-          <div class="partners-item">
-            <div class="partners-item-logo">
-              <img src="https://cookcollectivekitchen.com/wp-content/uploads/2019/07/dulcinea.svg"
-                alt="dulcinea's logo" />
+        <!-- second div start -->
+        <div class="block-content-specs">
+          <div class="specs-container">
+            <div class="specs-item">
+              <div class="specs-item-image">
+                <img src="./images/icon-pins.svg" alt="">
+              </div>
+              <div class="specs-item-title">
+                Infrastructure </div>
+              <div class="specs-item-description">
+                8 prep stations<br />
+                Ample dry/cold/freeze storage<br />
+                Delivery zone<br />
+                Extraction & Ventilation<br />
+                Ansul fire suppression system<br />
+                1 hand wash sink x station<br />
+                In-progress dedicated refrigeration units in every station.<br />
+                Stainless steel work tables x station<br />
+                Wi-Fi zone </div>
+              <div class="specs-item-button">
+              </div>
             </div>
-
-            <h2 class="partners-item-title">Dulcinea – Churros & Pastries</h2>
-
-            <p class="partners-item-text">
-              Dulcinea is a culinary concept dedicated to Spanish confections
-              featuring Spain’s most beloved confection the Churro. You can find
-              them on weekends at Smorgasburg and every day at Dekalb Market.
-            </p>
+            <div class="specs-item">
+              <div class="specs-item-image">
+                <img src="./images/icon-oven.svg" alt="">
+              </div>
+              <div class="specs-item-title">
+                Equipment </div>
+              <div class="specs-item-description">
+                Doyon revolving rack oven<br />
+                Dough sheeter<br />
+                Double door proofer<br />
+                Electric smoker<br />
+                Fryers, including a large donut fryer<br />
+                7 convection ovens<br />
+                Three 6 burner ranges<br />
+                2 stock pot burners<br />
+                8-60qt mixers<br />
+                Commercial Robot Coupes<br />
+                Ice cream machine<br />
+                Ice makers<br />
+              </div>
+              <div class="specs-item-button">
+              </div>
+            </div>
+            <div class="specs-item">
+              <div class="specs-item-image">
+                <img src="/images/icon-layers.svg" alt="">
+              </div>
+              <div class="specs-item-title">
+                Services </div>
+              <div class="specs-item-description">
+                Cleaning services<br />
+                Linen services<br />
+                Janitorial supplies<br />
+                Chemical supplies<br />
+                Free Wi-Fi <br />
+                Helpful staff<br />
+                Waste & Recycling services </div>
+              <div class="specs-item-button">
+              </div>
+            </div>
           </div>
+        </div>
+        <div class="block-content-bottom">
+          <a href="#how-to-apply">
+            <div class="button scroll-to">Need more info? Reach out!</div>
+          </a>
+        </div>
+      </div>
+      <!-- what we offer section end -->
+    </section>
 
-          <div class="partners-item">
-            <div class="partners-item-logo">
-              <img src="https://cookcollectivekitchen.com/wp-content/uploads/2021/04/Logo-No-Margin-e1619299737462.jpg"
-                alt="empanada logo" style="width: 120px" />
+    <!-- we serve you starts -->
+    <div id="we-serve" class="block block-full-image">
+      <div class="block-background">
+        <img width="80" height="38" class="will-change" src="./images/cookcollective-sep-background-1800x854.jpg"
+          class="lazy" alt="Cook Collective" />
+      </div>
+      <div class="block-content max-width">
+        <img src="./images/we-serve-you.svg" alt="we-serve" class="is-parallax">
+      </div>
+      <!-- we serve ends -->
+    </div>
+
+    <!-- who do we partner with -->
+    <section id="partners" class="block block-what-we-offer block-section-normal block-waypoint"
+      data-waypoint="partners">
+      <div class="block-container block-container-section max-width-large">
+        <div class="block-content-top">
+          <h1 class="text-title text-underline align-center">
+            <span>Who do we partner with?</span>
+          </h1>
+          <h2 class="text-subtitle text-underline align-center">
+            We love this business and our partners: vendors, virtual restaurants, makers, popups, producers,
+            catering and CPG Companies. </h2>
+          <div class="button button-secondary">
+            Meet our community </div>
+        </div>
+        <div class="block-content-partners">
+          <div class="partners-container">
+            <div class="partners-item">
+              <div class="partners-item-image">
+                <img src="./images/dulcinea.svg" alt="">
+              </div>
+              <div class="partners-item-title">
+                Dulcinea – Churros & Pastries </div>
+              <div class="partners-item-description">
+                Dulcinea is a culinary concept dedicated to Spanish confections featuring Spain’s most
+                beloved confection the Churro. You can find them on weekends at Smorgasburg and every
+                day at Dekalb Market. </div>
             </div>
-
-            <h2 class="partners-item-title">Empanada Republic</h2>
-
-            <p class="partners-item-text">
-              Empanada Republic is a Latin American conceived-Brooklyn born
-              project doing delicious handmade empanadas. You can find them at JFK
-              airport into the TWA hotel foodhall. They cater you.
-            </p>
-          </div>
-
-          <div class="partners-item">
-            <div class="partners-item-logo">
-              <img src="https://cookcollectivekitchen.com/wp-content/uploads/2019/07/jillicious.svg"
-                alt="jillicious logo" />
+            <div class="partners-item">
+              <div class="partners-item-image">
+                <img src="./images/Logo-No-Margin-e1619299737462.jpg" alt="">
+              </div>
+              <div class="partners-item-title">
+                Empanada Republic </div>
+              <div class="partners-item-description">
+                Empanada Republic is a Latin American conceived-Brooklyn born project doing delicious
+                handmade empanadas. You can find them at JFK airport into the TWA hotel foodhall. They
+                cater you.<br />
+              </div>
             </div>
-
-            <h2 class="partners-item-title">Jillicious Foods & Events</h2>
-
-            <p class="partners-item-text">
-              Jillicious is a full service, boutique catering company located in
-              Brooklyn, New York. Jillicious provide highly trained staff,
-              rentals, event design, and full event planning services for your
-              social events, corporate events, celebrations, and of course
-              weddings.
-            </p>
-          </div>
-
-          <div class="partners-item">
-            <div class="partners-item-logo">
-              <img src="https://cookcollectivekitchen.com/wp-content/uploads/2021/04/CCWEBTomLogo-e1619300001557.jpg"
-                alt="Tom's Granola logo" style="width: 110px" />
+            <div class="partners-item">
+              <div class="partners-item-image">
+                <img src="./images/jillicious.svg" alt="">
+              </div>
+              <div class="partners-item-title">
+                Jillicious Foods & Events </div>
+              <div class="partners-item-description">
+                Jillicious is a full service, boutique catering company located in Brooklyn, New York.
+                Jillicious provide highly trained staff, rentals, event design, and full event planning
+                services for your social events, corporate events, celebrations, and of course weddings.
+              </div>
             </div>
-
-            <h2 class="partners-item-title">Tom's Granola</h2>
-
-            <p class="partners-item-text">
-              What makes the perfect Granola? Do you like decadently sweet or
-              delightfully healthy? Simple or Complex? Light or Rich? Please
-              follow @tomsgranola and help them on their granola journey!
-            </p>
+            <div class="partners-item">
+              <div class="partners-item-image">
+                <img src="./images/CCWEBTomLogo-e1619300001557.jpg" alt="">
+              </div>
+              <div class="partners-item-title">
+                Tom's Granola </div>
+              <div class="partners-item-description">
+                What makes the perfect Granola? Do you like decadently sweet or delightfully healthy?
+                Simple or Complex? Light or Rich? Please follow @tomsgranola and help them on their
+                granola journey! </div>
+            </div>
           </div>
         </div>
       </div>
-      <!-- who we partner with section end -->
+      <div class="block-scroll-down">
+        <div class="scroll-down text-highlight-small scroll-to">
+          <a href="#how-to-apply" title="arrow-down">
+            <img src="/images/arrow-down.svg" alt="" class="arrow-down">
+          </a>
+          <span>Get to know us</span>
+
+        </div>
+      </div>
+      <!-- who do we partner with ends -->
     </section>
 
 
@@ -249,22 +318,24 @@
         <div class="block-left ">
           <div class="block-content">
             <h1 class="text-title align-left">
-              <span class="opacity-75">How to apply?</span>
+              <span class="">How to apply?</span>
             </h1>
-            <h2 class="text-subtitle opacity-75">
+            <h2 class="text-subtitle">
               Fill in the form below and be one step closer to being part of Cook Collective </h2>
-            <ol class="steps-list opacity-75">
+            <ol class="steps-list">
               <li>Book a tour</li>
               <li>Complete an application</li>
               <li>Sign a contract</li>
               <li>Welcome on board!</li>
             </ol>
-            <button type="button" class="button button-apply">Ok, I want to book a tour!</button>
+            <div class="button button-apply scroll-to" data-scroll-to="#book-form" data-scroll-offset="-100"
+							data-aos="fade-up">Ok, I want to book a tour!</div>
+
           </div>
         </div>
         <div class="block-right">
           <div class="block-section-bg-image bg-image-vertical">
-            <img class="" src="./images/3-923x1200.jpg" alt="" />
+            <img class=".img" src="./images/3-923x1200.jpg" alt="" />
           </div>
 
         </div>
@@ -272,12 +343,12 @@
       <!-- how to apply ends -->
     </section>
     <!-- booking starts -->
-    <section class="block block-form">
+    <section id="book-form" class="block block-form">
       <div class="block-content max-width">
-        <h1 class="text-title text-underline align-center">
-          <span class="opacity-75">Booking and information request</span>
+        <h1 class="text-title text-underline align-center ">
+          <span class="">Booking and information request</span>
         </h1>
-        <h2 class="text-subtitle text-underline align-center opacity-75">
+        <h2 class="text-subtitle text-underline align-center">
           Book a tour if you want to get to know us, see our<br />
           space for yourself, and maybe even work together! </h2>
       </div>
@@ -346,7 +417,7 @@
               data-width="50" style="width: 50%;min-height: 73px;">
               <div class="af-label acf-label"><label for="you"> <span class="acf-required"></span></label>
               </div>
-              <div class="af-input acf-input"><select id="you" name="are-you">
+              <div class="af-input acf-input"><select id="you" name="you" title="">
                   <option value="I am a ..." selected>I am a ...</option>
                   <option value="vendor">I&#039;m a vendor</option>
                   <option value="maker">I&#039;m a maker</option>
